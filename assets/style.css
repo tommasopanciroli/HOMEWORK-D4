@@ -1,0 +1,23 @@
+#background {
+    background-image: url(../sfondo.png);
+    height: 500px;
+    width: 400px;
+}
+
+#sezioni {
+    background-color: rgb(44, 174, 255);
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    
+}
+
+
+#logo {
+    width: max-content ;
+    height: 100px;
+    object-fit: contain;
+}
