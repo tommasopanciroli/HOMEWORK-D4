@@ -1,23 +1,52 @@
-#background {
-    background-image: url(../sfondo.png);
-    height: 500px;
-    width: 400px;
-}
+html {font-size: 62.5%;}
+body {
+    font-family: Poppins, 'Helvetica Neue', sans-serif;
+    font-size: 1.4rem;
+    padding: 15px;
+    background-image: url('../sfondo.png');
+    background-position: center center;
+    }
+    *{box-sizing: border-box;}
+    hr {display: none;}
+    /* ricordarsi di mettere hr dysplay none se qualcosa va storto */
 
-#sezioni {
-    background-color: rgb(44, 174, 255);
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid black;
-    width: 350px;
-    height: 250px;
-    text-align: center;
-    
-}
+    header {
+        background-color: rgb(0, 160, 198);
+        background: linear-gradient((0,160180deg, rgba,198,1) 0%, rgba(3,109,134,1) 68%);
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        box-shadow: 0 3px 3px #444;
+        margin-bottom: 1.5em;
+        padding: 2em 1.5em;
+    }
 
+    header div img {
+        margin-bottom: 24px;
+    }
 
-#logo {
-    width: max-content ;
-    height: 100px;
-    object-fit: contain;
-}
+    header div p {
+        margin-bottom: 25px;
+    }
+
+    header nav ul {
+        margin: 0;
+    }
+
+    header nav li {
+        list-style: none;
+    }
+
+    header nav li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    header nav li a:hover {
+        color: red;
+    }
+
+    header nav li a::before {
+        content: "\22c6\0020";
+    }

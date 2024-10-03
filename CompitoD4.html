@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile."
-      content=""
-    />
     <title>Blog Epicode</title>
     <link rel="stylesheet" href="./assets/reset.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -17,21 +17,26 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <div id="background">
-      <header>
-        <img id="logo" src="./logo.svg" alt="logo" />
-        
-          <div id="sezioni">
-            <p>Home</p>
-            <p>Articoli</p>
-            <p>Lavora con noi</p>
-          </div>
-        
-      </header>
-      <main></main>
-      <footer></footer>
-    </div>
+    <header>
+      <div>
+        <img src="./logo.svg" alt="logo blog" width="250" height="60" />
+        <p>EPICODE - IL BLOG DEI DEVELOPERS</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" title="Home Page"></a>Home</li>
+          <li>
+            <a href="articoli.html" title="Elenco degli articoli pubblicati"></a
+            >Articoli
+          </li>
+          <li><a href="contatti.html" title="Candidati"></a>Lavora con noi</li>
+        </ul>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
   </body>
 </html>
